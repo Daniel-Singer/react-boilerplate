@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve",
+    "start": "webpack serve --open",
     "build": "webpack --mode producton"
   },
   "keywords": [],
@@ -30,5 +30,13 @@
     "react-modal": "^3.12.1",
     "sass-loader": "^10.1.1",
     "style-loader": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Singer/react-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Daniel-Singer/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Daniel-Singer/react-boilerplate#readme"
 }
